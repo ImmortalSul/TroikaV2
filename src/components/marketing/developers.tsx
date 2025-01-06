@@ -19,7 +19,7 @@ const Developers = () => {
                     The Minds Behind Troika Hub
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Choose the plan that suits your needs. No hidden fees, no surprises.
+                    A dynamic blend of developers, designers, and creatives building tomorrow's tech today.
                     </p>
                 </div>
             </Container>

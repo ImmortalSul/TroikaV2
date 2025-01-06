@@ -65,7 +65,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 >
                                     <Link href="/" className="flex items-center w-full text-start">
                                         <Captions className="w-4 h-4 mr-2" />
-                                        Caption Generation
+                                        Optix
                                     </Link>
                                 </li>
                                 <li
@@ -73,7 +73,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 >
                                     <Link href="/" className="flex items-center w-full text-start">
                                         <CalendarClock className="w-4 h-4 mr-2" />
-                                        Post Scheduling
+                                        Scrapix
                                     </Link>
                                 </li>
                                 <li
@@ -81,7 +81,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 >
                                     <Link href="/" className="flex items-center w-full text-start">
                                         <LineChart className="w-4 h-4 mr-2" />
-                                        Analytics Dashboard
+                                        Vertex
                                     </Link>
                                 </li>
                             </AccordionContent>
