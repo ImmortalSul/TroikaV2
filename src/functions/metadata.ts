@@ -17,9 +17,9 @@ interface MetadataProps {
 }
 
 export const generateMetadata = ({
-    title = `${process.env.NEXT_PUBLIC_APP_NAME} - Smart Social Media Marketing Platform`,
-    description = "Streamline your social media management with AI-powered analytics, scheduling, and content optimization. Get real-time insights, automate posts, and boost engagement across all platforms",
-    image = "/thumbnail.png",
+    title = `${process.env.NEXT_PUBLIC_APP_NAME} - Crafting digital solutions with precision and creativity`,
+    description = "Streamline your workflows and unleash creativity with Troika Hub. From automation to portfolio management, our unified SaaS ecosystem empowers you to work smarter, innovate faster, and achieve more.",
+    image = "/troika-meta.png",
     icons = [
         {
             rel: "icon",
@@ -51,7 +51,7 @@ export const generateMetadata = ({
     publishedTime,
     modifiedTime
 }: MetadataProps = {}): Metadata => {
-    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://luro-ai.vercel.app");
+    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://troikahub.tech/");
     const imageUrl = image ? new URL(image, metadataBase).toString() : null;
 
     return {

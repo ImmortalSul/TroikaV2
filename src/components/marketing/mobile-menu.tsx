@@ -56,7 +56,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                             <AccordionTrigger className="px-4 py-2 text-lg hover:text-muted-foreground font-normal">
                                 <span className="flex items-center">
                                     <CopyCheck className="w-4 h-4 mr-2" />
-                                    Features
+                                    Products
                                 </span>
                             </AccordionTrigger>
                             <AccordionContent onClick={() => setIsOpen(false)} className="flex flex-col items-start gap-1 mt-1">
@@ -93,7 +93,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                     >
                         <Link href="/" className="flex items-center w-full text-start">
                             <Gem className="w-4 h-4 mr-2" />
-                            Pricing
+                            Developers
                         </Link>
                     </li>
                     <li

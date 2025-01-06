@@ -49,8 +49,8 @@ export const FOOTER_LINKS = [
         title: "Product",
         links: [
             { name: "Home", href: "/" },
-            { name: "Features", href: "/" },
-            { name: "Pricing", href: "/" },
+            { name: "Products", href: "/" },
+            { name: "Developers", href: "/" },
             { name: "Contact", href: "/" },
             { name: "Download", href: "/" },
         ],

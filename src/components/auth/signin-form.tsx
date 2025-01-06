@@ -181,7 +181,7 @@ const SignInForm = () => {
         if (from) {
             setIsEmailOpen(false);
         }
-    }, []);
+    }, [from]);
 
     return (
         <div className="flex flex-col text-center w-full">
@@ -197,10 +197,10 @@ const SignInForm = () => {
                 </div>
                 <h1 className="text-2xl text-center mt-4">
                     {isEmailOpen
-                        ? "Login to Luro"
+                        ? "Login to Troika Hub"
                         : isCodeSent
                             ? "Verify your email"
-                            : "Welcome to Luro"}
+                            : "Welcome to Troika Hub"}
                 </h1>
                 <p className="text-sm text-muted-foreground mt-2">
                     {isEmailOpen

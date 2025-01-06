@@ -11,10 +11,10 @@ import SignUpForm from "./auth/signup-form";
 import Hero from "./marketing/hero";
 import Navbar from "./marketing/navbar";
 import Companies from "./marketing/companies";
-import Features from "./marketing/features";
+import Products from "./marketing/products";
 import Connect from "./marketing/connect";
 import Perks from "./marketing/perks";
-import Pricing from "./marketing/pricing";
+import Developers from "./marketing/developers";
 import Reviews from "./marketing/reviews";
 import CTA from "./marketing/cta";
 import Footer from "./marketing/footer";
@@ -28,10 +28,10 @@ export {
     Hero,
     Navbar,
     Companies,
-    Features,
+    Products,
     Connect,
     Perks,
-    Pricing,
+    Developers,
     Reviews,
     CTA,
     Footer,

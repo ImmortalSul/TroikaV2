@@ -1,7 +1,7 @@
 "use client"
 
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
-import { CalendarRangeIcon, CircleHelp, HashIcon, Newspaper, UsersIcon } from 'lucide-react';
+import { Boxes, CalendarRangeIcon, CircleHelp, Computer, HashIcon, Newspaper, Origami, Rotate3D, UsersIcon } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 import Icons from "../global/icons";
@@ -26,7 +26,7 @@ const Menu = () => {
                 </NavigationMenuItem> */}
                 <NavigationMenuItem>
                     <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground">
-                        Features
+                        Products
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid rounded-3xl gap-3 p-4 md:w-[400px] lg:w-[500px] xl:w-[550px] lg:grid-cols-[.75fr_1fr]">
@@ -38,33 +38,33 @@ const Menu = () => {
                                     >
                                         <Icons.icon className="w-6 h-6" />
                                         <div className="my-2 text-lg font-normal">
-                                            Luro AI
+                                            Troika Hub
                                         </div>
                                         <p className="text-sm text-muted-foreground">
-                                            Your ultimate social media management tool
+                                            Your hub of Powerful tools to automate workflows, scrape data, and more.
                                         </p>
                                     </Link>
                                 </NavigationMenuLink>
                             </li>
-                            <Item title="Content Calendar" href="/features/content-calendar" icon={<CalendarRangeIcon className="w-5 h-3" />}>
-                                Plan and visualize your content strategy.
+                            <Item title="Optix" href="/" icon={<Boxes className="w-5 h-3" />}>
+                                Automate workflows visually
                             </Item>
-                            <Item title="Hashtag Manager" href="/features/hashtag-manager" icon={<HashIcon className="w-5 h-3" />}>
-                                Research and track trending hashtags.
+                            <Item title="Scrapix" href="/" icon={<Origami className="w-5 h-3" />}>
+                                Intuitive visual tool for scraping data
                             </Item>
-                            <Item title="Competitor Analysis" href="/features/competitor-analysis" icon={<UsersIcon className="w-5 h-3" />}>
-                                Monitor and analyze competitor performance.
+                            <Item title="RepoSnap" href="/" icon={<Computer className="w-5 h-3" />}>
+                                Summarize GitHub repos, docs, and meetings using RAG-powered insights.
                             </Item>
-                            <Item title="Competitor Analysis" href="/features/competitor-analysis" icon={<UsersIcon className="w-5 h-3" />}>
-                                Monitor and analyze competitor performance.
+                            <Item title="Vertex" href="/" icon={<Rotate3D className="w-5 h-3" />}>
+                                Stunning 3D portfolios to showcase creativity and skills interactively.
                             </Item>
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link href="/pricing" legacyBehavior passHref>
+                    <Link href="/Developers" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
-                            Pricing
+                            Developers
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>

@@ -54,7 +54,7 @@ const DocsPage = () => {
                         How do I reset my password?
                     </h3>
                     <p className="mt-4 text-muted-foreground">
-                        To reset your password, go to the login page and click on "Forgot Password". Follow the instructions to reset your password.
+                        To reset your password, go to the login page and click on Forgot Password. Follow the instructions to reset your password.
                     </p>
 
                     <h3 className="text-lg mt-8">

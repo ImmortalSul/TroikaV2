@@ -9,14 +9,14 @@ import { Button } from "../ui/button";
 import { SectionBadge } from "../ui/section-badge";
 // import SectionBadge from "../ui/section-badge";
 
-const Pricing = () => {
+const Developers = () => {
     return (
         <div className="flex flex-col items-center justify-center py-12 md:py-16 lg:py-24 w-full relative">
             <Container>
                 <div className="flex flex-col items-center text-center max-w-xl mx-auto">
-                    <SectionBadge title="Choose your plan" />
+                    <SectionBadge title="Meet The Team" />
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                        Simple and transparent pricing
+                    The Minds Behind Troika Hub
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
                         Choose the plan that suits your needs. No hidden fees, no surprises.
@@ -113,4 +113,4 @@ const Plan = ({
     )
 };
 
-export default Pricing;
+export default Developers;

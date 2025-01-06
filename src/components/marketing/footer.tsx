@@ -5,6 +5,7 @@ import Icons from "../global/icons";
 import Wrapper from "../global/wrapper";
 import { Button } from "../ui/button";
 import { Particles } from "../ui/particles";
+import { TextHoverEffect } from "../ui/text-hover-effect";
 
 const Footer = () => {
     return (
@@ -22,17 +23,15 @@ const Footer = () => {
                         <div className="flex items-center gap-2">
                             <Icons.icon className="w-5 h-5" />
                             <span className="text-xl font-medium">
-                                Luro
+                                Troika Hub
                             </span>
                         </div>
                         <p className="text-base max-w mt-4">
-                            Empower your business with our AI tools.
+                        Fueling Your Vision, One Product at a Time
                         </p>
-                        <Button className="mt-8">
-                            <Link href="/app">
-                                Start for free
-                            </Link>
-                        </Button>
+                        <span className="mt-8 text-neutral-200 text-sm flex items-center">
+                            Made with &lt;3 by <Link href="" className="font-semibold ml-1">Sulaiman</Link> 
+                        </span> 
                     </div>
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-lg mt-10 md:mt-0">
                         {FOOTER_LINKS?.map((section, index) => (
@@ -57,21 +56,24 @@ const Footer = () => {
             <Container>
                 <Wrapper className="pt-10 flex items-center justify-between relative">
                     <p className="text-sm text-secondary-foreground">
-                        &copy; {new Date().getFullYear()} Luro. All rights reserved.
+                        &copy; {new Date().getFullYear()} Troika Hub. All rights reserved.
                     </p>
                     <div className="flex items-center gap-4">
-                        <Link href="#" className="p-1">
+                        <Link href="https://www.instagram.com/troika_hub/" target="_blank" rel="noopener noreferrer" className="p-1">
                             <Icons.instagram className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
-                        <Link href="#" className="p-1">
+                        <Link href="https://x.com/TroikaHub" target="_blank" rel="noopener noreferrer"  className="p-1">
                             <Icons.twitter className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
-                        <Link href="#" className="p-1">
+                        <Link href="#" target="_blank" rel="noopener noreferrer"  className="p-1">
                             <Icons.discord className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
                     </div>
                 </Wrapper>
             </Container>
+            <div className="h-[20rem] lg:h-[20rem] hidden md:flex items-center justify-center">
+                <TextHoverEffect text="TROIKA" />
+            </div>
         </footer>
     )
 };

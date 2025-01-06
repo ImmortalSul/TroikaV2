@@ -1,88 +1,92 @@
-<img src="https://github.com/user-attachments/assets/a1d7ced5-e6fc-41fd-9256-9d73a5f33597" alt="Luro Logo" width="50" height="50">
+<img src="public\assets\logo.png" alt="Troika Hub Logo" width="50" height="50">
 
+# ⚡ Troika Hub - Your Gateway to Cutting-Edge SaaS Solutions
 
-# 🔗 Luro - AI Powered Content Creation Platform(Landing Page)
+<img src="public\assets\Thumbnail (1).png">
 
-<!-- <img src="https://github.com/user-attachments/assets/deab03fd-4234-44c3-a6ad-484c4a1a02a1" alt="Linkify Thubmnail"> -->
-<img src="https://github.com/user-attachments/assets/0ff7129e-2f5d-48ae-913d-d4fd1507e613" alt="Luro Thumbnail" style="border-radius: 12px;" width="1280">
+## � Introduction  
+Welcome to **Troika Hub**, a creative lab for groundbreaking tech products. With a diverse range of SaaS tools designed to streamline workflows, spark innovation, and deliver efficiency, Troika Hub is your destination for innovative solutions.  
 
+### Troika Products:  
+1. **Optix** - Visual Workflow Automation  
+2. **Scrapix** - Visual Web Scraper  
+3. **RepoSnap** - GitHub SaaS for summarizing code, docs, commits, and meetings  
+4. **Vertex** - A stunning 3D portfolio builder  
+5. **Troika AI Agent** - AI-powered assistant, seamlessly integrated with all our products  
 
-## 🌟 Introduction
-Luro is an innovative social media marketing platform designed to help you streamline your social media management effortlessly. Built with Next.js, Tailwind CSS, Shadcn UI, Magic UI, Aceternity UI, Prisma, MongoDB, Clerk, React Hook Form, and TypeScript, Luro provides powerful analytics and user-friendly features to enhance your social media marketing experience.
+Explore how we’re reshaping productivity, creativity, and collaboration.
 
-## 🚀 Features
+---
 
-- Real-time performance tracking across platforms
-- Engagement rate calculations and trends
-- Audience growth and demographic insights
-- Custom report generation
-- ROI tracking and analysis
+## � Features  
+- Intuitive interfaces designed for creators, developers, and innovators  
+- Smart automation tools to optimize your workflow  
+- Advanced AI integration for tailored solutions  
+- Real-time insights and actionable analytics  
+- Cutting-edge 3D design capabilities  
 
-## 🔗 Live Preview
+---
 
-Check out the live demo of Luro here: [Live Preview](http://luro-ai.vercel.app)
+## � Live Preview  
+Discover the innovation at Troika Hub: [Explore Troika Hub](http://troikahub.tech)
 
-## 🎥 Watch Demo on YouTube
+---
 
-Check out the tutorial to see how this social media marketing platform was built: [Watch the Tutorial](https://youtu.be/q8mOwYrpAHA?si=XpGy9VIKkaWJmfPL) 💻 
+## � Watch Our Journey  
+Dive into our world of innovation with demos and tutorials: [Watch Now](https://youtube.com) �  
 
-## 💻 Tech Stack
+---
 
-* Next.js
-* Tailwind CSS
-* Shadcn UI
-* Magic UI
-* Aceternity UI
-* Prisma
-* MongoDB
-* Clerk
-* Recharts
-* Framer Motion
+## � Tech Stack  
+Troika is built using the best tools and technologies:  
+- **Next.js**  
+- **Tailwind CSS**  
+- **TypeScript**  
+- **Prisma**  
+- **MongoDB**  
+- **Shadcn UI**  
+- **Clerk**  
+- **Framer Motion**  
+- **Recharts**  
 
-## 🛠️ Installation
-To run Luro locally, follow these steps:
+---
+
+## � Installation  
+Follow these steps to run Troika Hub locally:  
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Shreyas-29/luro-ai.git
+    git clone https://github.com/TroikaHub/troika-hub.git
     ```
 2. Install dependencies:
     ```bash
-    pnpm install
+    npm install
     ```
 3. Set up environment variables in a `.env` file:
     ```
-    # app
-    NEXT_PUBLIC_APP_NAME=
-    NEXT_PUBLIC_APP_DOMAIN=
+   # app
+    NEXT_PUBLIC_APP_DOMAIN=your-domain
+    NEXT_PUBLIC_APP_NAME=TroikaHub
+
+    # clerk
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-publishable-key
+    CLERK_SECRET_KEY=your-secret-key
 
     # database
-    DATABASE_URL=
-
-    # auth
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-    CLERK_SECRET_KEY=
-    NEXT_PUBLIC_CLERK_SIGN_IN_URL="/signin"
-    NEXT_PUBLIC_CLERK_SIGN_UP_URL="/signup"
-    NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_URL="/"
-    NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_URL="/"
+    DATABASE_URL=your-database-url
     ```
 
 4. Run the development server:
     ```bash
-    pnpm run dev
+    npm run dev
     ```
 
-## ☕ Buy Me a Coffee
-If you enjoy using Luro, consider supporting my work!  
-[Buy Me a Coffee ☕](https://buymeacoffee.com/shreyas29)
-
-## 📜 License
+## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 💬 Contact
-If you have any questions or feedback, feel free to reach out via [GitHub Issues](https://github.com/Shreyas-29/luro-ai/issues).
+## Contact
+If you have any questions or feedback, feel free to reach out via [GitHub Issues](https://github.com/TroikaHub/troika-hub/issues).
 
 ---
 
-Built with ❤️ by [Shreyas](https://shreyas-sihasane.vercel.app/)
+Built with ❤️ by [Sulaiman](https://sulaiweb.me)

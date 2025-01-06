@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import React, { useEffect, useRef, useState, useCallback } from "react";
 import Image, { StaticImageData } from 'next/image'
 import { Transition } from '@headlessui/react'
 
@@ -10,47 +10,48 @@ interface Item {
     buttonIcon: StaticImageData
 }
 
-export default function ProgressSlider({ items }: { items: Item[] }) {
-    const duration: number = 5000
-    const itemsRef = useRef<HTMLDivElement>(null)
-    const frame = useRef<number>(0)
-    const firstFrameTime = useRef(performance.now())
-    const [active, setActive] = useState<number>(0)
-    const [progress, setProgress] = useState<number>(0)
+const ProgressSlider = ({ duration, items }: { duration: number, items: Item[] }) => {
+    const [active, setActive] = useState(0);
+    const [progress, setProgress] = useState(0);
+    const frame = useRef(0);
+    const firstFrameTime = useRef(0);
+    const itemsRef = useRef<HTMLDivElement>(null);
+
+    const animate = useCallback((now: number) => {
+        let timeFraction = (now - firstFrameTime.current) / duration;
+        if (timeFraction <= 1) {
+            setProgress(timeFraction * 100);
+            frame.current = requestAnimationFrame(animate);
+        } else {
+            timeFraction = 1;
+            setProgress(0);
+            setActive((active + 1) % items.length);
+        }
+    }, [active, duration, items.length]);
 
     useEffect(() => {
-        firstFrameTime.current = performance.now()
-        frame.current = requestAnimationFrame(animate)
+        firstFrameTime.current = performance.now();
+        frame.current = requestAnimationFrame(animate);
         return () => {
-            cancelAnimationFrame(frame.current)
-        }
-    }, [active])
-
-    const animate = (now: number) => {
-        let timeFraction = (now - firstFrameTime.current) / duration
-        if (timeFraction <= 1) {
-            setProgress(timeFraction * 100)
-            frame.current = requestAnimationFrame(animate)
-        } else {
-            timeFraction = 1
-            setProgress(0)
-            setActive((active + 1) % items.length)
-        }
-    }
+            cancelAnimationFrame(frame.current);
+        };
+    }, [animate, active]);
 
     const heightFix = () => {
-        if (itemsRef.current && itemsRef.current.parentElement) itemsRef.current.parentElement.style.height = `${itemsRef.current.clientHeight}px`
-    }
+        if (itemsRef.current && itemsRef.current.parentElement) {
+            itemsRef.current.parentElement.style.height = `${itemsRef.current.clientHeight}px`;
+        }
+    };
 
     useEffect(() => {
-        heightFix()
-    }, [])
+        heightFix();
+    }, [items]);
 
     return (
-        <div className="w-full max-w-5xl mx-auto text-center">
+        <div className="w-full max-w-5xl mx-auto text-center" ref={itemsRef}>
             {/* Item image */}
             <div className="transition-all duration-150 delay-300 ease-in-out">
-                <div className="relative flex flex-col" ref={itemsRef}>
+                <div className="relative flex flex-col">
 
                     {items.map((item, index) => (
                         <Transition
@@ -93,5 +94,7 @@ export default function ProgressSlider({ items }: { items: Item[] }) {
 
             </div>
         </div>
-    )
+    );
 };
+
+export default ProgressSlider;
