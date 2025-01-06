@@ -445,7 +445,7 @@ const Images = {
 <g filter="url(#filter0_i_1_2)">
 <path d="M867 71H101C78.9086 71 61 88.9086 61 111V238C61 260.091 78.9086 278 101 278H867C889.091 278 907 260.091 907 238V111C907 88.9086 889.091 71 867 71Z" fill="#2E1065" fill-opacity="0.8"/>
 </g>
-<mask id="mask1_1_2" maskType="luminance" maskUnits="userSpaceOnUse" x="133" y="127" width="115" height="104">
+<mask id="mask1_1_2" maskUnits="userSpaceOnUse" x="133" y="127" width="115" height="104">
 <path d="M247.266 127H133V230.792H247.266V127Z" fill="white"/>
 </mask>
 <g mask="url(#mask1_1_2)">

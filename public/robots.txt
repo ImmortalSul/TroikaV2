@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://troikahub.tech
+
+# Sitemaps
+Sitemap: https://troikahub.tech/sitemap.xml

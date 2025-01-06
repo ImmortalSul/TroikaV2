@@ -37,6 +37,7 @@
     "mini-svg-data-uri": "^1.4.4",
     "motion": "^11.15.0",
     "next": "14.2.6",
+    "next-sitemap": "^4.2.3",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",

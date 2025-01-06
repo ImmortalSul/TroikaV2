@@ -44,7 +44,7 @@ export const generateMetadata = ({
         "content marketing"
     ],
     author = process.env.NEXT_PUBLIC_AUTHOR_NAME,
-    twitterHandle = "@yourtwitterhandle",
+    twitterHandle = "@ImmortalSul",
     type = "website",
     locale = "en_US",
     alternates = {},
