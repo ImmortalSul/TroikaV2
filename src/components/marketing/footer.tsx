@@ -1,11 +1,12 @@
 import { FOOTER_LINKS } from "@/constants";
 import Link from "next/link";
+// import { Container } from "@/components/ui/container";
+// import { Icons } from "@/components/icons";
+import Wrapper from "../global/wrapper";
+import { Particles } from "../ui/particles";
+import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import Container from "../global/container";
 import Icons from "../global/icons";
-import Wrapper from "../global/wrapper";
-import { Button } from "../ui/button";
-import { Particles } from "../ui/particles";
-import { TextHoverEffect } from "../ui/text-hover-effect";
 
 const Footer = () => {
     return (
@@ -71,10 +72,11 @@ const Footer = () => {
                     </div>
                 </Wrapper>
             </Container>
-            <div className="h-[20rem] lg:h-[20rem] hidden md:flex items-center justify-center">
+            {/* <div className="h-[20rem] lg:h-[20rem] hidden md:flex items-center justify-center">
                 <TextHoverEffect text="TROIKA" />
-            </div>
+            </div> */}
         </footer>
+        
     )
 };
 
