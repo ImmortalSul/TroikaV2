@@ -19,7 +19,7 @@ const Developers = () => {
                     The Minds Behind Troika Hub
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                    A dynamic blend of developers, designers, and creatives building tomorrow's tech today.
+                    A dynamic blend of developers, designers, and creatives building tomorrow&apos;s tech today.
                     </p>
                 </div>
             </Container>
