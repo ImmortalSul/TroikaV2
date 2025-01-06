@@ -41,10 +41,10 @@ const DocsPage = () => {
                         Troika Hub offers a variety of features to help you manage your social media presence:
                     </p>
                     <ul className="list-disc ml-8 text-muted-foreground mt-4">
-                        <li>Content Calendar: Plan and schedule your posts.</li>
-                        <li>Hashtag Manager: Research and track trending hashtags.</li>
-                        <li>Competitor Analysis: Monitor and analyze competitor performance.</li>
-                        <li>Analytics: Gain insights into your social media performance.</li>
+                        <li>Scrapix: Intuitive tool for scraping and organizing web data effortlessly.</li>
+                        <li>Optix: Automate workflows visually with drag-and-drop ease and advanced integrations.</li>
+                        <li>RepoSnap: Intuitive tool for scraping and organizing web data effortlessly.</li>
+                        <li>Vertex: Stunning 3D portfolios to showcase creativity and skills interactively.</li>
                     </ul>
 
                     <h2 className="text-xl font-medium mt-12">

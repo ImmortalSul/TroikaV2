@@ -147,11 +147,11 @@ const Products = () => {
                                     </div>
                                     <div className="flex flex-col mt-auto">
                                         <h4 className="text-xl font-heading font-medium heading ">
-                                            Hashtags suggestions
+                                            Optix: Automate Workflows Visually 
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Get hashtag suggestions based on your content and audience to increase your reach and engagement.
-                                        </p>
+                                        A powerful task automation tool that simplifies workflows and boosts productivity. From automating repetitive tasks to integrating seamlessly with your favorite tools, Optix empowers teams to focus on what truly matters. Achieve more with less effort.
+                                           </p>
                                     </div>
                                 </div>
                             </MagicCard>
