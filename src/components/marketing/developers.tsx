@@ -103,7 +103,7 @@ const Plan = ({
                         variant={id === "pro" ? "default" : "tertiary"}
                         className="w-full hover:scale-100 hover:translate-y-0 shadow-none"
                     >
-                        <Link href={""}>
+                        <Link href={""} target="_blank" rel="noopener noreferrer">
                             {buttonText}
                         </Link>
                     </Button>
