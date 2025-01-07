@@ -22,9 +22,9 @@ export const PLANS: PLAN[] = [
             "Editing Stack: Illustrator, After Effects, Photoshop",
             "Models Built: McLaren 720S, Star Wars TIE Fighter, Space Marine",
             "Renders: Iphone Mock Adverts, 3D Logo Animations for Brands",
-            "IIDE Digital Marketting Intern",
+            "IIDE Digital Marketing Intern",
         ],
-        link: "/"
+        link: "https://www.linkedin.com/in/chaitanyasardana/"
     },
     {
         id: "Immortal",
@@ -60,6 +60,6 @@ export const PLANS: PLAN[] = [
             "Specializes in cloud infrastructure and databse management",
             // "24/7 priority support"
         ],
-        link: "/"
+        link: "https://www.linkedin.com/in/pratyush-bose/"
     }
 ];
