@@ -7,6 +7,8 @@ import { Particles } from "../ui/particles";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import Container from "../global/container";
 import Icons from "../global/icons";
+import { Button } from "../ui/button";
+import { CoolMode } from "../ui/cool-mode";
 
 const Footer = () => {
     return (
@@ -69,12 +71,19 @@ const Footer = () => {
                         <Link href="#" target="_blank" rel="noopener noreferrer"  className="p-1">
                             <Icons.discord className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
+                        <CoolMode
+        options={{
+          particle: "/icons/logo.png",
+        }}
+      >
+        <Button>🥚</Button>
+      </CoolMode>
                     </div>
                 </Wrapper>
             </Container>
-            {/* <div className="h-[20rem] lg:h-[20rem] hidden md:flex items-center justify-center">
+            <div className="h-[15rem] lg:h-[15rem] hidden sm:flex items-center justify-center">
                 <TextHoverEffect text="TROIKA" />
-            </div> */}
+            </div>
         </footer>
         
     )
