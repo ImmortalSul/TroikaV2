@@ -50,6 +50,7 @@ const Plan = ({
     buttonText,
     features,
     index,
+    link,
 }: {
     id: string;
     title: string;
@@ -58,6 +59,7 @@ const Plan = ({
     buttonText: string;
     features: string[];
     index: number;
+    link: string;
 }) => {
     return (
         <div key={index} className="w-full relative flex flex-col saturate-150 rounded-2xl">
@@ -103,7 +105,7 @@ const Plan = ({
                         variant={id === "pro" ? "default" : "tertiary"}
                         className="w-full hover:scale-100 hover:translate-y-0 shadow-none"
                     >
-                        <Link href={""} target="_blank" rel="noopener noreferrer">
+                        <Link href={link} target="_blank" rel="noopener noreferrer">
                             {buttonText}
                         </Link>
                     </Button>
