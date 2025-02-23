@@ -4,7 +4,7 @@
 
 <img src="public\assets\Thumbnail (1).png">
 
-## � Introduction  
+##  Introduction  
 Welcome to **Troika Hub**, a creative lab for groundbreaking tech products. With a diverse range of SaaS tools designed to streamline workflows, spark innovation, and deliver efficiency, Troika Hub is your destination for innovative solutions.  
 
 ### Troika Products:  
@@ -18,7 +18,7 @@ Explore how we’re reshaping productivity, creativity, and collaboration.
 
 ---
 
-## � Features  
+##  Features  
 - Intuitive interfaces designed for creators, developers, and innovators  
 - Smart automation tools to optimize your workflow  
 - Advanced AI integration for tailored solutions  
@@ -27,17 +27,17 @@ Explore how we’re reshaping productivity, creativity, and collaboration.
 
 ---
 
-## � Live Preview  
+##  Live Preview 
 Discover the innovation at Troika Hub: [Explore Troika Hub](http://troikahub.tech)
 
 ---
 
-## � Watch Our Journey  
+##  Watch Our Journey (Todo)
 Dive into our world of innovation with demos and tutorials: [Watch Now](https://youtube.com) �  
 
 ---
 
-## � Tech Stack  
+##  Tech Stack  
 Troika is built using the best tools and technologies:  
 - **Next.js**  
 - **Tailwind CSS**  
@@ -51,7 +51,7 @@ Troika is built using the best tools and technologies:
 
 ---
 
-## � Installation  
+##  Installation  
 Follow these steps to run Troika Hub locally:  
 
 1. Clone the repository:
